@@ -1,0 +1,102 @@
+standard
+***Report Model: smart_access_uart_board_top_multi Device: EG4S20BG256***
+
+IO Statistics
+#IO                        17
+  #input                    7
+  #output                  10
+  #inout                    0
+
+Utilization Statistics
+#lut                    15432   out of  19600   78.73%
+#reg                     1590   out of  19600    8.11%
+#le                     15444
+  #lut only             13854   out of  15444   89.70%
+  #reg only                12   out of  15444    0.08%
+  #lut&reg               1578   out of  15444   10.22%
+#dsp                        2   out of     29    6.90%
+#bram                       0   out of     64    0.00%
+  #bram9k                   0
+  #fifo9k                   0
+#bram32k                    3   out of     16   18.75%
+#pad                       17   out of    188    9.04%
+  #ireg                     5
+  #oreg                    10
+  #treg                     0
+#pll                        0   out of      4    0.00%
+#gclk                       0   out of     16    0.00%
+
+Clock Resource Statistics
+Index     ClockNet     Type               DriverType         Driver          Fanout
+#1        CLK_dup_1    GCLK               io                 CLK_syn_2.di    2216
+
+
+Detailed IO Report
+
+        Name          Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+        CLK             INPUT         R7        LVCMOS25          N/A          PULLUP      NONE    
+     KEY_COL[3]         INPUT        F10        LVCMOS25          N/A          PULLUP      IREG    
+     KEY_COL[2]         INPUT        C11        LVCMOS25          N/A          PULLUP      IREG    
+     KEY_COL[1]         INPUT        D11        LVCMOS25          N/A          PULLUP      IREG    
+     KEY_COL[0]         INPUT        E11        LVCMOS25          N/A          PULLUP      IREG    
+     SW0_RST_N          INPUT         A9        LVCMOS25          N/A          PULLUP      NONE    
+      UART_RX           INPUT        F12        LVCMOS25          N/A          PULLUP      IREG    
+       BUZZER          OUTPUT        H11        LVCMOS25           8            NONE       OREG    
+     KEY_ROW[3]        OUTPUT         D9        LVCMOS25           8            NONE       OREG    
+     KEY_ROW[2]        OUTPUT         F9        LVCMOS25           8            NONE       OREG    
+     KEY_ROW[1]        OUTPUT        C10        LVCMOS25           8            NONE       OREG    
+     KEY_ROW[0]        OUTPUT        E10        LVCMOS25           8            NONE       OREG    
+   LED0_LOCK_OPEN      OUTPUT        B14        LVCMOS25           8            NONE       OREG    
+    LED1_LOCKOUT       OUTPUT        B15        LVCMOS25           8            NONE       OREG    
+  LED2_COMM_ERROR      OUTPUT        B16        LVCMOS25           8            NONE       OREG    
+  LED3_FRAME_READY     OUTPUT        C15        LVCMOS25           8            NONE       OREG    
+      UART_TX          OUTPUT        D12        LVCMOS25           8            NONE       OREG    
+
+Report Hierarchy Area:
++--------------------------------------------------------------------------------------------------------------------------+
+|Instance                          |Module                            |le     |lut     |ripple  |seq     |bram    |dsp     |
++--------------------------------------------------------------------------------------------------------------------------+
+|top                               |smart_access_uart_board_top_multi |15444  |14965   |467     |1605    |3       |2       |
+|  u_command_executor              |command_executor                  |16     |16      |0       |9       |0       |0       |
+|  u_face_command_controller_multi |face_command_controller_multi     |141    |128     |5       |64      |0       |0       |
+|  u_feature_matcher_multi         |feature_matcher_multi             |9953   |9907    |46      |159     |0       |0       |
+|  u_feature_summary               |feature_summary                   |449    |421     |28      |131     |0       |2       |
+|  u_filtered_frame_buffer         |frame_buffer                      |12     |12      |0       |0       |1       |0       |
+|  u_filtered_stats                |image_stats                       |209    |173     |36      |138     |0       |0       |
+|  u_image_rx_controller           |image_rx_controller               |325    |316     |9       |134     |0       |0       |
+|  u_lbp                           |lbp_3x3                           |185    |161     |21      |52      |0       |0       |
+|  u_lbp_frame_buffer              |frame_buffer                      |16     |16      |0       |2       |1       |0       |
+|  u_lbp_histogram                 |lbp_histogram                     |1830   |1815    |15      |44      |0       |0       |
+|  u_lbp_stats                     |image_stats                       |203    |167     |36      |127     |0       |0       |
+|  u_mean_filter                   |mean_filter_3x3                   |301    |281     |20      |57      |0       |0       |
+|  u_packet_parser                 |packet_parser                     |241    |226     |15      |55      |0       |0       |
+|  u_packet_tx                     |packet_tx                         |141    |136     |5       |52      |0       |0       |
+|  u_raw_frame_buffer              |frame_buffer                      |12     |12      |0       |0       |1       |0       |
+|  u_raw_stats                     |image_stats                       |210    |173     |36      |137     |0       |0       |
+|  u_response_controller_multi     |response_controller_multi         |311    |311     |0       |129     |0       |0       |
+|  u_smart_access                  |smart_access_top                  |735    |570     |165     |228     |0       |0       |
+|    u_alarm_ctrl                  |alarm_ctrl                        |275    |196     |79      |52      |0       |0       |
+|    u_auth_fusion                 |auth_fusion                       |134    |110     |24      |34      |0       |0       |
+|    u_fail_counter                |fail_counter                      |4      |4       |0       |3       |0       |0       |
+|    u_key_scan                    |key_scan                          |141    |125     |16      |59      |0       |0       |
+|    u_lock_ctrl                   |lock_ctrl                         |76     |53      |23      |30      |0       |0       |
+|    u_password_fsm                |password_fsm                      |33     |33      |0       |24      |0       |0       |
+|    u_system_lockout              |system_lockout                    |72     |49      |23      |26      |0       |0       |
+|  u_uart_rx                       |uart_rx                           |65     |50      |15      |28      |0       |0       |
+|  u_uart_tx                       |uart_tx                           |55     |44      |11      |23      |0       |0       |
++--------------------------------------------------------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout     Nets   
+    #1          1       15071  
+    #2          2       10620  
+    #3          3        412   
+    #4          4        345   
+    #5        5-10       362   
+    #6        11-50      215   
+    #7       51-100      36    
+    #8       101-500     22    
+    #9        >500       23    
+  Average     3.10             

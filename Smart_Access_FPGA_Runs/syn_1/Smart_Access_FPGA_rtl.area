@@ -1,0 +1,63 @@
+standard
+***Report Model: smart_access_uart_board_top_multi Device: EG4S20BG256***
+
+IO Statistics
+#IO                        17
+  #input                    7
+  #output                  10
+  #inout                    0
+
+Gate Statistics
+#Basic gates             3611
+  #and                    582
+  #nand                     0
+  #or                     138
+  #nor                      0
+  #xor                     29
+  #xnor                     0
+  #buf                      0
+  #not                    272
+  #bufif1                   0
+  #MX21                   990
+  #FADD                     0
+  #DFF                   1600
+  #LATCH                    0
+#MACRO_ADD                152
+#MACRO_EQ                 100
+#MACRO_MULT                 1
+#MACRO_MUX               2874
+#MACRO_OTHERS               7
+
+Report Hierarchy Area:
++---------------------------------------------------------------------------------------------+
+|Instance                          |Module                            |gates  |seq    |macros |
++---------------------------------------------------------------------------------------------+
+|top                               |smart_access_uart_board_top_multi |2011   |1600   |260    |
+|  u_command_executor              |command_executor                  |30     |8      |9      |
+|  u_face_command_controller_multi |face_command_controller_multi     |94     |60     |5      |
+|  u_feature_matcher_multi         |feature_matcher_multi             |220    |149    |12     |
+|  u_feature_summary               |feature_summary                   |103    |141    |28     |
+|  u_filtered_frame_buffer         |frame_buffer                      |0      |0      |1      |
+|  u_filtered_stats                |image_stats                       |7      |141    |7      |
+|  u_image_rx_controller           |image_rx_controller               |240    |143    |15     |
+|  u_lbp                           |lbp_3x3                           |44     |55     |12     |
+|  u_lbp_frame_buffer              |frame_buffer                      |0      |0      |1      |
+|  u_lbp_histogram                 |lbp_histogram                     |57     |48     |24     |
+|  u_lbp_stats                     |image_stats                       |7      |141    |7      |
+|  u_mean_filter                   |mean_filter_3x3                   |69     |54     |29     |
+|  u_packet_parser                 |packet_parser                     |84     |51     |10     |
+|  u_packet_tx                     |packet_tx                         |141    |42     |4      |
+|  u_raw_frame_buffer              |frame_buffer                      |0      |0      |1      |
+|  u_raw_stats                     |image_stats                       |7      |141    |7      |
+|  u_response_controller_multi     |response_controller_multi         |178    |106    |1      |
+|  u_smart_access                  |smart_access_top                  |599    |234    |64     |
+|    u_alarm_ctrl                  |alarm_ctrl                        |92     |51     |21     |
+|    u_auth_fusion                 |auth_fusion                       |169    |35     |3      |
+|    u_fail_counter                |fail_counter                      |6      |3      |3      |
+|    u_key_scan                    |key_scan                          |202    |65     |24     |
+|    u_lock_ctrl                   |lock_ctrl                         |36     |29     |2      |
+|    u_password_fsm                |password_fsm                      |48     |21     |7      |
+|    u_system_lockout              |system_lockout                    |37     |30     |2      |
+|  u_uart_rx                       |uart_rx                           |30     |34     |6      |
+|  u_uart_tx                       |uart_tx                           |22     |25     |8      |
++---------------------------------------------------------------------------------------------+

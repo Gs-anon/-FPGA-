@@ -1,0 +1,372 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/Electronic Circuit Design/Multi_Module_Demo
+T_opt
+!s110 1788782879
+V;AH304T;Q7A^fo>`ZH;hm2
+04 20 4 work tb_image_rx_pipeline fast 0
+=1-40c2ba5de0bd-6a9ea91e-360-7b7c
+Z1 o-quiet -auto_acc_if_foreign -work Smart_Access +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+T_opt1
+!s110 1788760259
+VmnP]Zm`fM2XIW3RSHEKAc2
+04 10 4 work tb_uart_rx fast 0
+=1-40c2ba5de0bd-6a9e50c2-134-7e98
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1788760491
+Vj7d31QGK<A76fzEMhn0MB3
+04 10 4 work tb_uart_tx fast 0
+=1-40c2ba5de0bd-6a9e51ab-108-18cc
+R1
+R2
+n@_opt2
+R3
+R0
+valarm_ctrl
+Z4 !s110 1788782859
+!i10b 1
+!s100 ?g?j:gl2Q0dl`R>=`aZ8M2
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[amf;^IS?0b:UE[jbYI<;1
+Z6 dH:/Electronic Circuit Design/Smart_Access_FPGA
+w1788754808
+8H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/security/alarm_ctrl.v
+FH:/Electronic Circuit Design/Smart_Access_FPGA/rtl/security/alarm_ctrl.v
+!i122 128
+L0 28 756
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z9 !s108 1788782858.000000
+!s107 H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/security/alarm_ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/security/alarm_ctrl.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vfail_counter
+R4
+!i10b 1
+!s100 ^DzAa?7450_Moh4ebJ3241
+R5
+IM:mEM]mzioT3o4L?PFWC61
+R6
+w1788754173
+8H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/security/fail_counter.v
+FH:/Electronic Circuit Design/Smart_Access_FPGA/rtl/security/fail_counter.v
+!i122 129
+L0 19 132
+R7
+R8
+r1
+!s85 0
+31
+Z11 !s108 1788782859.000000
+!s107 H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/security/fail_counter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/security/fail_counter.v|
+!i113 0
+R10
+R2
+vframe_buffer
+R4
+!i10b 1
+!s100 OOW^nVETe`Mn7iMH_KbHi0
+R5
+I^TUbPXMG[10>iIJHle?E91
+R6
+w1788782490
+8H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/image/frame_buffer.v
+FH:/Electronic Circuit Design/Smart_Access_FPGA/rtl/image/frame_buffer.v
+!i122 137
+L0 26 32
+R7
+R8
+r1
+!s85 0
+31
+R11
+!s107 H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/image/frame_buffer.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/image/frame_buffer.v|
+!i113 0
+R10
+R2
+vimage_rx_controller
+R4
+!i10b 1
+!s100 5BGJC^zW1Ul18me_A40]G2
+R5
+I^@`mgzMED<Y:N9YSRDCLg1
+R6
+w1788782533
+8H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/image/image_rx_controller.v
+FH:/Electronic Circuit Design/Smart_Access_FPGA/rtl/image/image_rx_controller.v
+!i122 138
+L0 37 573
+R7
+R8
+r1
+!s85 0
+31
+R11
+!s107 H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/image/image_rx_controller.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/image/image_rx_controller.v|
+!i113 0
+R10
+R2
+vkey_scan
+Z12 !s110 1788782858
+!i10b 1
+!s100 D4;fC_Kd1F1<2=KE=;N>P1
+R5
+IzJ:Y;Zm13A58A>;lgz_FU0
+R6
+w1788752565
+8H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/key/key_scan.v
+FH:/Electronic Circuit Design/Smart_Access_FPGA/rtl/key/key_scan.v
+!i122 125
+L0 38 583
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/key/key_scan.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/key/key_scan.v|
+!i113 0
+R10
+R2
+vlock_ctrl
+R12
+!i10b 1
+!s100 ;R2f6>z8_ONn[][l4WeTR3
+R5
+IkkNLn]UB6VT>l1Ic0C<Dz3
+R6
+w1788755399
+8H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/key/lock_ctrl.v
+FH:/Electronic Circuit Design/Smart_Access_FPGA/rtl/key/lock_ctrl.v
+!i122 126
+L0 3 64
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/key/lock_ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/key/lock_ctrl.v|
+!i113 0
+R10
+R2
+vpacket_parser
+R4
+!i10b 1
+!s100 ^7GhLlZo4En3bEHcTReB10
+R5
+I7OO73G3m71:EN5z0zTNIA1
+R6
+w1788763207
+8H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/uart/packet_parser.v
+FH:/Electronic Circuit Design/Smart_Access_FPGA/rtl/uart/packet_parser.v
+!i122 140
+L0 27 529
+R7
+R8
+r1
+!s85 0
+31
+R11
+!s107 H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/uart/packet_parser.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/uart/packet_parser.v|
+!i113 0
+R10
+R2
+vpassword_fsm
+R12
+!i10b 1
+!s100 PAR=4UI5M:I4Wb@<aXg?G3
+R5
+IdzJ^5^RbDLX1B`bdKY0o]0
+R6
+w1788753422
+8H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/key/password_fsm.v
+FH:/Electronic Circuit Design/Smart_Access_FPGA/rtl/key/password_fsm.v
+!i122 127
+L0 23 221
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/key/password_fsm.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/key/password_fsm.v|
+!i113 0
+R10
+R2
+vsmart_access_top
+R4
+!i10b 1
+!s100 1iHQCHj?j4zTmWo:klh131
+R5
+I[F=RTo2DOHbI;H`2MeAN91
+R6
+w1788763905
+8H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/top/smart_access_top.v
+FH:/Electronic Circuit Design/Smart_Access_FPGA/rtl/top/smart_access_top.v
+!i122 131
+L0 25 233
+R7
+R8
+r1
+!s85 0
+31
+R11
+!s107 H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/top/smart_access_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/top/smart_access_top.v|
+!i113 0
+R10
+R2
+vsystem_lockout
+R4
+!i10b 1
+!s100 @`P5053];T5X;[:IAFM660
+R5
+IoAYb38@@GWQ;nZKlBHT:I3
+R6
+w1788754526
+8H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/security/system_lockout.v
+FH:/Electronic Circuit Design/Smart_Access_FPGA/rtl/security/system_lockout.v
+!i122 130
+L0 19 153
+R7
+R8
+r1
+!s85 0
+31
+R11
+!s107 H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/security/system_lockout.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|H:/Electronic Circuit Design/Smart_Access_FPGA/rtl/security/system_lockout.v|
+!i113 0
+R10
+R2
+vtb_alarm_ctrl
+!s110 1788754953
+!i10b 1
+!s100 fF08Xb4gLGTzgA7I7^e`@0
+R5
+IR;]AM25_o_l48@:]8L5R@1
+R6
+w1788754852
+8sim/tb_alarm_ctrl.v
+Fsim/tb_alarm_ctrl.v
+!i122 42
+L0 3 363
+R7
+R8
+r1
+!s85 0
+31
+!s108 1788754953.000000
+!s107 sim/tb_alarm_ctrl.v|
+!s90 -reportprogress|300|sim/tb_alarm_ctrl.v|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtb_fail_counter
+Z13 !s110 1788754885
+!i10b 1
+!s100 ;NZZ@RkZOA7`LP^G>f[5L1
+R5
+Io=fP0b:L1^Cn_;Q6A26jV3
+R6
+w1788754225
+8H:/Electronic Circuit Design/Smart_Access_FPGA/sim/tb_fail_counter.v
+FH:/Electronic Circuit Design/Smart_Access_FPGA/sim/tb_fail_counter.v
+!i122 35
+L0 16 532
+R7
+R8
+r1
+!s85 0
+31
+Z14 !s108 1788754885.000000
+!s107 H:/Electronic Circuit Design/Smart_Access_FPGA/sim/tb_fail_counter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|H:/Electronic Circuit Design/Smart_Access_FPGA/sim/tb_fail_counter.v|
+!i113 0
+R10
+R2
+vtb_image_rx_pipeline
+R4
+!i10b 1
+!s100 jbJl0YdYgYV_De319NaFj3
+R5
+I<Wd8KSdzMBHe]T3KXb`4Y3
+R6
+w1788782589
+8H:/Electronic Circuit Design/Smart_Access_FPGA/sim/tb_image_rx_pipeline.v
+FH:/Electronic Circuit Design/Smart_Access_FPGA/sim/tb_image_rx_pipeline.v
+!i122 139
+L0 3 822
+R7
+R8
+r1
+!s85 0
+31
+R11
+!s107 H:/Electronic Circuit Design/Smart_Access_FPGA/sim/tb_image_rx_pipeline.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|H:/Electronic Circuit Design/Smart_Access_FPGA/sim/tb_image_rx_pipeline.v|
+!i113 0
+R10
+R2
+vtb_key_scan
+!s110 1788753051
+!i10b 1
+!s100 cNF_dMkcWWVE3`D^3m7LW3
+R5
+IPW`@1jj`hKXf;TUdiVA`C3
+R6
+w1788752857
+8H:/Electronic Circuit Design/Smart_Access_FPGA/sim/tb_key_scan.v
+FH:/Electronic Circuit Design/Smart_Access_FPGA/sim/tb_key_scan.v
+!i122 0
+L0 31 668
+R7
+R8
+r1
+!s85 0
+31
+!s108 1788753051.000000
+!s107 H:/Electronic Circuit Design/Smart_Access_FPGA/sim/tb_key_scan.v|
+!s90 -reportprogress|300|-work|Smart_Access|-vopt|-stats=none|H:/Electronic Circuit Design/Smart_Access_FPGA/sim/tb_key_scan.v|
+!i113 0
+o-work Smart_Access -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtb_lock_ctrl
+R13
+!i10b 1
+!s100 m6zMc8zEFzeT:mADIkW3A3
+R5
+I4K]02gURN2XcdZSWg7l=@3
+R6
+w1788753993
+8H:/Electronic Circuit Design/Smart_Access_FPGA/sim/tb_lock_ctrl.v
+FH:/Electronic Circuit
