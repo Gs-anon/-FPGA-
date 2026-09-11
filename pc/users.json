@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "max_users": 8,
+    "users": {
+        "1": {
+            "name": "hhhh",
+            "enabled": true,
+            "template_image": "captured_templates\\user1_20260911_083649_632035.png",
+            "notes": ""
+        },
+        "0": {
+            "name": "gggg",
+            "enabled": true,
+            "template_image": "captured_templates\\user0_20260911_083555_673426.png",
+            "notes": ""
+        }
+    }
+}

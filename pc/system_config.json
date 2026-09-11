@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "feature_signature": "LBP_RIU2_640_V1",
+    "match_threshold": 2500,
+    "auth_mode": 2,
+    "auto_restore_on_connect": true,
+    "auto_recognition": true,
+    "auto_stable_frames": 8,
+    "auto_cooldown_seconds": 3.5,
+    "camera_index": 0,
+    "last_serial_port": "COM11"
+}
